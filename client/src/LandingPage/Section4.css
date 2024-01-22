@@ -1,0 +1,45 @@
+#section4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    min-height: 20vh;
+
+    & .carder{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 15px;
+        padding-right: 25px;
+        padding-inline:3%;
+        border-radius: 10px;
+        background-color: #315367;
+        scale: 1.1;
+
+        & span{
+            font-size: 60px;
+            color: whitesmoke;
+        }
+        & .card{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            height: fit-content;
+    
+            & h2{
+                font-size: 55px;
+                font-family: 'Kaushan Script';
+                margin-block: 0;
+                color: whitesmoke;
+            }
+    
+            & p{
+                margin-block: 0;
+                color: rgb(20, 20, 20);
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+    }
+}
